@@ -3,13 +3,13 @@
 
 
 
-🚀 Features
-Creating and maintaining Logs using Blockchains
-📦 Installation
+🚀 Features.
+Creating and maintaining Logs using Blockchains.
+📦 Installation.
 Clone the repository:
 
-Copy code
-git clone (https://github.com/SHIVAM2255/event-logging-using-blockchain)
-cd backend
-npm i 
-for front end open frontend and run index.html file
+
+git clone (https://github.com/SHIVAM2255/event-logging-using-blockchain).
+cd backend.
+npm i .
+for front end open frontend and run index.html file.
