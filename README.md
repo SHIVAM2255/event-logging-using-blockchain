@@ -9,7 +9,7 @@ Creating and maintaining Logs using Blockchains.
 Clone the repository:
 
 
-git clone (https://github.com/SHIVAM2255/event-logging-using-blockchain).
-cd backend.
+git clone (https://github.com/SHIVAM2255/event-logging-using-blockchain)<br>.
+cd backend<br>.
 npm i .
 for front end open frontend and run index.html file.
