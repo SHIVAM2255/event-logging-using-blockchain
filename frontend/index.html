@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Logging System</title>
+  <link rel="stylesheet" href="style.css"> <!-- Optional for styling -->
+</head>
+<body>
+
+  <h1>Event Logging System</h1>
+
+  <!-- Form to create a new event -->
+  <h2>Create Event</h2>
+  <form id="eventForm">
+    <label for="eventType">Event Type:</label>
+    <input type="text" id="eventType" required><br><br>
+
+    <label for="sourceAppId">Source Application ID:</label>
+    <input type="text" id="sourceAppId" required><br><br>
+
+    <label for="dataPayload">Data Payload (JSON):</label>
+    <textarea id="dataPayload" required placeholder='{"key": "value"}'></textarea><br><br>
+
+    <button type="submit">Create Event</button>
+  </form>
+
+  <hr>
+
+  <!-- Button to fetch and display events -->
+  <button id="fetchEventsBtn">Fetch Events</button>
+
+  <h2>Event List</h2>
+  <ul id="eventList"></ul>
+
+  <script src="app.js"></script>
+</body>
+</html>
